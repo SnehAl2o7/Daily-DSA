@@ -14,7 +14,7 @@ class Solution {
             }
             return {};
         }
-    // OPTIMIZED APPROACH
+    // OPTIMIZED APPROACH and we can also use two pass in this approach
         vector<int> twoSumMap(vector<int>& nums, int target) {
             int n = nums.size();
             unordered_map<int,int> mpp; // create a map to store values in it
