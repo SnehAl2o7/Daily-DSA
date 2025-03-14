@@ -69,10 +69,10 @@ int main(){
     for(int i = 0;i < n;i++){
         cin>>d[i];
     }
-    // vector<int> ans = s.plusOneme(d);
-    // for(int num : ans){
-    //     cout << num << " ";
-    // }
+    vector<int> ans = s.plusOneme(d);
+    for(int num : ans){
+        cout << num << " ";
+    }
 
     vector<int> ans1 = s.plusOneop(d);
     for(int num : ans1){
