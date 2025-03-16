@@ -84,8 +84,12 @@ class Spreadsheet {
     };
     
 int main (){
-    
-    Spreadsheet spreadsheet;
+    Spreadsheet s(3);
+    s.setCell("A1", 10);
+    s.setCell("B2", 20);
+    s.setCell("C3", 30);
+    s.getValue("=A1+2");
+    cout << s.getCell("A1");
     return 0;
 
 }    
