@@ -24,16 +24,17 @@ class Solution {
         }
 
         int maxProfitmin(vector<int>& prices) {
-            int cnt =0;
-            int min_prices = prices[0];
-            for(int i=1;i<prices.size();i++)
+            int cnt =0; // cnt for max profit
+            int min_prices = prices[0]; // to track the current minimum price
+            for(int i=1;i<prices.size();i++) 
             {
-                
+                // cnt for updating the max profit
                     cnt = max(cnt,prices[i]-min_prices);
+                    // min to update the minimum price
                     min_prices = min(prices[i],min_prices);
                 
             }
-            return cnt;
+            return cnt; // returning the max profit
     
         }
     };
