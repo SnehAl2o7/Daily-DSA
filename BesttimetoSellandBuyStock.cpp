@@ -34,6 +34,7 @@ class Solution {
                     min_prices = min(prices[i],min_prices);
                 
             }
+
             return cnt; // returning the max profit
     
         }
