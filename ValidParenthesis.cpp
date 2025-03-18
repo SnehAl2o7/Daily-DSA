@@ -25,7 +25,7 @@ class Solution {
 
     int main (){
         Solution obj;
-        string s = "()";
+        string s = "([]{{})";
         cout << boolalpha << obj.isValid(s) << endl;
         return 0;
     }
