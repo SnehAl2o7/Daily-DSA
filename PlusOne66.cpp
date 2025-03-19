@@ -12,14 +12,14 @@ class Solution {
             int n = d.size(); // get the size
             int i = n-1; // to access the last element
             int carry = 1; // using carry for addition
-            while(i >= 0){ // iterating d
+            while(i >= 0 && carry > -1){ // iterating d
                 
                 if(d[i] + carry == 10){ // if adding last digit create a carry
                     d[i] = 0;
                 }
                 else { // if no carry is generated.
                     d[i] += carry;
-                    carry = 0; // making carry 0
+                    carry--; // making carry 0
                 }
                 i--;
             }
