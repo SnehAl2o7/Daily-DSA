@@ -23,3 +23,14 @@ class Solution {
       return dp[n][sum];
       }
   };
+
+  int main (){
+    Solution obj;
+    vector<int> arr = {3, 34, 4, 12, 5, 2};
+    int sum = 9;
+    if(obj.isSubsetSum(arr, sum))
+    cout << "True";
+    else
+    cout << "False";
+    return 0;
+  }
