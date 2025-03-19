@@ -24,3 +24,14 @@ class Solution {
             return ans;
         }
     };
+
+int main(){
+    Solution s;
+    vector<int> nums = {-4,-1,0,3,10};
+    vector<int> ans = s.sortedSquares(nums);
+    for(int i = 0; i < ans.size(); i++){
+        cout << ans[i] << " ";
+        }
+        return 0;
+        
+}
