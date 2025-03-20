@@ -33,3 +33,16 @@ class Solution {
             return ans; // returning the solution
         }
     };
+
+int main (){
+    Solution s;
+    vector<int> nums = {-1,0,1,2,-1,-4};
+    vector<vector<int>> ans = s.threeSum(nums);
+    for(auto it : ans){
+        for(auto it2 : it){
+            cout << it2 << " "; 
+            }
+        cout << endl;
+    }
+    return 0;
+}
