@@ -4,16 +4,13 @@ using namespace std;
 class Solution {
     public:
         bool containsNearbyDuplicate(vector<int>& nums, int k) {
-            // using sliding window
-            unordered_map<int,int> mpp; // using a hash map to access value 
-            for(int i = 0;i <nums.size();i++){ // loop to access elements
-                int val = nums[i]; // storing value to check in mpp and compare
-                if(mpp.find(val) != mpp.end() && i-mpp[val] <= k){ // checking in map
-                    return true; // if found return ture
-                }
-                mpp[val] = i; // storing value in mpp at the same time
+            if (k < 0 || nums.empty()) return false;
+            unordered_set<int> window;
+            for (int i = 0; i < nums.size(); ++i) {
+                if (i > k) window.erase(nums[i - k - 1]);
+                if (!window.insert(nums[i]).second) return true;
             }
-            return false; // if no element is found return false;
+            return false;
         }
     };
 
