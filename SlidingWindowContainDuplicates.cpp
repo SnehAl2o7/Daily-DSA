@@ -21,3 +21,4 @@ class Solution {
         cout<<s.containsNearbyDuplicate(nums,k)<<endl;
         return 0;
     }
+    
