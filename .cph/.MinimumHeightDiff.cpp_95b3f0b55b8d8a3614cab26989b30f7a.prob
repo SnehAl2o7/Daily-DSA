@@ -1,0 +1,1 @@
+{"name":"Local: MinimumHeightDiff","url":"/home/snehal/GIT_HUB/Daily-DSA/MinimumHeightDiff.cpp","tests":[{"id":1743096680679,"input":"1\n2\n1 5 8 10","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/snehal/GIT_HUB/Daily-DSA/MinimumHeightDiff.cpp","group":"local","local":true}
