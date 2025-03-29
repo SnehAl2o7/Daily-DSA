@@ -1,0 +1,1 @@
+{"name":"Local: MaximumProductSub-array","url":"/home/snehal/GIT_HUB/Daily-DSA/MaximumProductSub-array.cpp","tests":[{"id":1743246703917,"input":"1\n-2 6 -3 -10 0 2","output":"180"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/snehal/GIT_HUB/Daily-DSA/MaximumProductSub-array.cpp","group":"local","local":true}
