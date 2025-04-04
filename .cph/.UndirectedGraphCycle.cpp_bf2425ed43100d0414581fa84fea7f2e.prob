@@ -1,0 +1,1 @@
+{"name":"Local: UndirectedGraphCycle","url":"/home/snehal/GIT_HUB/Daily-DSA/UndirectedGraphCycle.cpp","tests":[{"id":1743786301415,"input":"1\n4\n4\n0 1 0 2 1 2 2 3","output":"true"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/snehal/GIT_HUB/Daily-DSA/UndirectedGraphCycle.cpp","group":"local","local":true}
