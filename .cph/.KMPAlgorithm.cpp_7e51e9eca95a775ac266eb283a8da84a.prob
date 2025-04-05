@@ -1,0 +1,1 @@
+{"name":"Local: KMPAlgorithm","url":"/home/snehal/GIT_HUB/Daily-DSA/KMPAlgorithm.cpp","tests":[{"id":1743877210107,"input":"1\nabcab\nab","output":"0 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/snehal/GIT_HUB/Daily-DSA/KMPAlgorithm.cpp","group":"local","local":true}
