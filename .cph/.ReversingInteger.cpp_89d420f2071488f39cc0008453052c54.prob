@@ -1,0 +1,1 @@
+{"name":"Local: ReversingInteger","url":"/home/snehal/GIT_HUB/Daily-DSA/ReversingInteger.cpp","tests":[{"id":1744530985703,"input":"2\n123\n145889","output":"321\n988541"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/snehal/GIT_HUB/Daily-DSA/ReversingInteger.cpp","group":"local","local":true}
