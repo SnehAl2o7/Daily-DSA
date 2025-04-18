@@ -4,7 +4,7 @@ using namespace std;
 class Solution{
     public:
         int LongestSubarray(vector<int> nums, long long k){
-            int n = nums.size();
+            int n = nums.size(); // selecting lenght 
             int left = 0, right = 0;
             int cnt = 0;
             long long sum = nums[0];
