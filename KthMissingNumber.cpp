@@ -54,8 +54,6 @@ int main() {
         int ans = ob.kthMissing(arr, d);
         cout << ans << endl;
 
-        cout << "~"
-             << "\n";
     }
     return 0;
 }
