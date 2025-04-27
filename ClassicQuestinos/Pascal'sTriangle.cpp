@@ -25,14 +25,18 @@ class Solution {
 
 int main(){
     Solution obj;
-    int n;
-    cin >> n;
-    vector<vector<int>> triangle = obj.generate(n);
-    for(int i = 0;i < triangle.size();i++){
-        for(int j = 0;j < triangle[i].size();j++){
-            cout << triangle[i][j] << " ";
+    int t;
+    cin >> t ;
+    while(t--){
+        int n;
+        cin >> n;
+        vector<vector<int>> triangle = obj.generate(n);
+        for(int i = 0;i < triangle.size();i++){
+            for(int j = 0;j < triangle[i].size();j++){
+                cout << triangle[i][j] << " ";
+            }
+            cout << endl;
         }
-        cout << endl;
     }
     return 0;
 }
