@@ -1,0 +1,1 @@
+{"name":"Local: SortLinkedListof012","url":"/home/snehal/GIT_HUB/Daily-DSA/PODT-problems/SortLinkedListof012.cpp","tests":[{"id":1745947549926,"input":"1\n1 2 2 1 2 0 2 2","output":"0 1 1 2 2 2 2 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/snehal/GIT_HUB/Daily-DSA/PODT-problems/SortLinkedListof012.cpp","group":"local","local":true}
