@@ -16,12 +16,8 @@ class Solution{
       
   }
   
-  
     int countNumbers(int n) {
-        // Code Here
         int ans = 0;
-        
-        // as from example 36 is the first one. 
         for(int i=6; i*i<=n; i++){
             if(has9div(i*i)){
                 ans++;
