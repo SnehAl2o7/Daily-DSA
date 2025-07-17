@@ -25,8 +25,8 @@ int count(vector<int> &coins, int sum) {
 }
 
 int main() {
-    vector<int> coins = {1, 2, 3};
-    int sum = 5;
+    vector<int> coins = {1, 2, 3,4};
+    int sum = 6;
     cout << count(coins, sum);
     return 0;
 }
