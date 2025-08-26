@@ -1,3 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Solution{
+public:
 vector<int> farMin(vector<int>& arr) {
         // code here
           int n = arr.size();
@@ -26,3 +31,4 @@ vector<int> farMin(vector<int>& arr) {
         }
         return ans;
 }
+};
